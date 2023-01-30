@@ -84,3 +84,60 @@ footer {
     text-align: center;
     padding: 20;
 }
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+.input_padrao {
+    display: block;
+    padding: 20px;
+    width: 50%;
+}
+form label, form legend,form p {
+    display: block;
+    margin: 10px 0px 10px;
+    font-size: 20px;
+}
+select {
+    display: block;
+    margin: 10px 0;
+}
+
+.botao_envio {
+    display: block;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: orange;
+    margin: 10px 30px;
+    padding: 10px 20%;
+    border: none;
+    border-radius: 6px;
+    transition: 1s all;
+}
+
+.botao_envio:hover {
+    background-color: darkorange;
+    transform: scale(1.3);
+    cursor: pointer;
+}
+table{
+    margin: 30px;
+}
+table thead {
+    background-color: #555555;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+table tbody,tr,td {
+    border: #000000 solid 2px;
+    padding: 10px;
+    text-align: center;
+}
